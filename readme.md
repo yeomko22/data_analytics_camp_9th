@@ -9,5 +9,5 @@
 수업 자료는 진도에 맞춰서 차근차근 업로드 됩니다.  
 앞으로 배울 내용이 궁금하신 분들은 이전 기수 수업 자료 레포지토리를 참고해주세요.  
 
-[데이터 분석 및 서비스 개발 과정 4회차 수업 자료](https://github.com/yeomko22/data_analytics_camp_2023_share)
+[데이터 분석 및 서비스 개발 과정 4회차 수업 자료](https://github.com/yeomko22/data_analytics_camp_2023_share)  
 [데이터 분석 및 서비스 개발 과정 6회차 수업 자료](https://github.com/yeomko22/data_analytics_camp_6th)
