@@ -1,4 +1,4 @@
-# ch10_database_diagram
+# ch12_database_diagram
 
 ## 데이터베이스 다이어그램
 

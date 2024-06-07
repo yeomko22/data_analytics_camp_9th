@@ -1,4 +1,4 @@
-# ch11_ecommerce_db_analysis
+# ch13_ecommerce_db_analysis
 
 ## 미니 프로젝트
 

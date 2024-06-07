@@ -143,11 +143,3 @@ VALUES
 ## 정리
 
 이번 챕터에서는 생성한 테이블에 데이터를 넣을 수 있는 INSERT 문과 테이블에 넣은 데이터를 조회할 수 있는 SELECT 문의 기본 사용법을 배웠습니다. 그리고 각 행들을 고유하게 구분할 수 있는 primary key의 필요성에 대해서 알아봤고, 테이블 생성 시에 auto_increment 옵션을 준 id 컬럼으로 primary key를 설정하는 방법에 대해서 알아보았습니다. 
-
-## 심화: primary key가 auto_increment int여야 하는 이유
-
-테이블 생성 시에 primary key가 없을 경우, 첫번째 unique 컬럼 값을 primary key로 사용합니다. unique 조건도 갖고 있지 않을 경우, mariaDB가 사용하는 storage engine인 innoDB가 내부적으로 primary key 역할을 하는 값을 생성한다고 합니다. 즉, 모든 테이블은 primary key를 가져야 합니다. 
-
-[https://dev.mysql.com/doc/refman/8.0/en/innodb-index-types.html](https://dev.mysql.com/doc/refman/8.0/en/innodb-index-types.html)
-
-명시적으로 auto_increment id 값을 primary key로 지정하는 것이 데이터 가독성 측면과 성능 측면에서 좋습니다. auto_increment가 성능적으로 왜 유리하냐면, 데이터베이스의 index 구조를 알아야 합니다. 데이터 베이스는 b+ tree라는 트리 구조로 인덱스 데이터를 저장합니다. 테이블에 별다른 설정을 하지 않을 경우, primary key로 인덱스를 합니다. 이 때, auto_increment하면 중구 난방으로 흩어져서 데이터가 추가되지 않고, 트리의 가장 오른쪽 끝부분에 순차적으로 데이터가 추가되어 파편화 이슈가 작아서 오버헤드가 더 적습니다.

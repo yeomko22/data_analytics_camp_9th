@@ -1,4 +1,4 @@
-# ch4_14_foreign_key
+# ch11_foreign_key
 
 ## Foreign Key
 
