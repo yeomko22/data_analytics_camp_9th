@@ -1,0 +1,33 @@
+#todo-container {
+	text-align: center;
+	margin-top: 20px;
+}
+
+#program-name {
+	margin: 5px;
+	color: #037bfc;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#program-course {
+	margin: 5px;
+	color: #5886b8;
+	font-size: 18px;
+}
+
+#todo-list {
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.todo-item {
+  margin: 5px auto;
+  width: 500px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #e3f1ff;
+}
