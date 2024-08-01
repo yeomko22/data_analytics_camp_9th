@@ -1,2 +1,4 @@
-baseball.csv
 *.csv
+!naver*
+!user.dic
+*.json
